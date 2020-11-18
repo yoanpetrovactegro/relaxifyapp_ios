@@ -1,0 +1,6 @@
+framework module Pods_relaxify {
+  umbrella header "Pods-relaxify-umbrella.h"
+
+  export *
+  module * { export * }
+}
