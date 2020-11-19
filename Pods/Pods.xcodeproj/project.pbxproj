@@ -52,7 +52,7 @@
 		0232769B52E8FD3333328E80B8C89288 /* EMTNeumorphicView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EMTNeumorphicView.swift; path = EMTNeumorphicView/Classes/EMTNeumorphicView.swift; sourceTree = "<group>"; };
 		0854BF7E79F7F605DBAAA3D6F99F5270 /* Pods-relaxifyTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-relaxifyTests-umbrella.h"; sourceTree = "<group>"; };
 		0B40C59BDBB45706655310FEB5218DBE /* Pods-relaxify-relaxifyUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-relaxify-relaxifyUITests-umbrella.h"; sourceTree = "<group>"; };
-		0C1DF5A97CA3D246C1B8DE99BDB9BDE8 /* Pods_relaxify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_relaxify.framework; path = "Pods-relaxify.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C1DF5A97CA3D246C1B8DE99BDB9BDE8 /* Pods_relaxify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_relaxify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1101635CBC55ABCD51B148DA8D64921E /* EMTNeumorphicView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMTNeumorphicView-umbrella.h"; sourceTree = "<group>"; };
 		1A4B335E9810CFF1E0CF713D956E1E39 /* Pods-relaxifyTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-relaxifyTests.modulemap"; sourceTree = "<group>"; };
 		320D863B1BA4943286CA95F1C2212D6E /* Pods-relaxify-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-relaxify-frameworks.sh"; sourceTree = "<group>"; };
@@ -60,10 +60,10 @@
 		418AF8CFBE8B6ACDD52297FDABA75F9E /* Pods-relaxify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-relaxify.release.xcconfig"; sourceTree = "<group>"; };
 		491A8BFA0158AC87F8E16409251232C4 /* Pods-relaxifyTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-relaxifyTests-Info.plist"; sourceTree = "<group>"; };
 		4A2764AACEDD6C7411797076100B0419 /* Pods-relaxifyTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-relaxifyTests-dummy.m"; sourceTree = "<group>"; };
-		4CDC562046A208F477B625D5AE67795F /* EMTNeumorphicView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EMTNeumorphicView.framework; path = EMTNeumorphicView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDC562046A208F477B625D5AE67795F /* EMTNeumorphicView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EMTNeumorphicView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEFAF541668CA7EB3492509BAEB0821 /* EMTNeumorphicView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EMTNeumorphicView.release.xcconfig; sourceTree = "<group>"; };
 		4EF5833995EEBAA2BAD55133840A2236 /* Pods-relaxify-relaxifyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-relaxify-relaxifyUITests.release.xcconfig"; sourceTree = "<group>"; };
-		51350D966C7FE5A92AF5622679B4463C /* Pods_relaxifyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_relaxifyTests.framework; path = "Pods-relaxifyTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51350D966C7FE5A92AF5622679B4463C /* Pods_relaxifyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_relaxifyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9BF6DF5E6852B62B076923CCB9D377 /* Pods-relaxify-relaxifyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-relaxify-relaxifyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6DCC98211B4C95C7A172BF81C34F8B8F /* EMTNeumorphicView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EMTNeumorphicView-Info.plist"; sourceTree = "<group>"; };
 		6F1D1D0BAB59A3CAB2AD34236BA04437 /* EMTNeumorphicView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMTNeumorphicView-dummy.m"; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		7DBFD371650F9A35525358FEA7CCB87A /* Pods-relaxifyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-relaxifyTests.release.xcconfig"; sourceTree = "<group>"; };
 		7F130981790F6030D421707066BC78B8 /* Pods-relaxifyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-relaxifyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8CAC4403318FA7C13FA48439855634A5 /* Pods-relaxifyTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-relaxifyTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A40735334A2ECB20F1CE0A38149879AB /* Pods-relaxify-relaxifyUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-relaxify-relaxifyUITests-dummy.m"; sourceTree = "<group>"; };
 		AD2E09F317D8C7759D8E3498D619BF29 /* Pods-relaxify-relaxifyUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-relaxify-relaxifyUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B4F3F9BBF66A3C8819EA366A1D0EAF7B /* Pods-relaxify-relaxifyUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-relaxify-relaxifyUITests-frameworks.sh"; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 		BCDF31A7B3928A63D5DEC161B82B9F19 /* Pods-relaxify.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-relaxify.modulemap"; sourceTree = "<group>"; };
 		BF268521D2A1C3C8FC8EE063A00E180E /* UIColor+tool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+tool.swift"; path = "EMTNeumorphicView/Classes/UIColor+tool.swift"; sourceTree = "<group>"; };
 		CC2A7807B0547733BF4BBDCBA954D60B /* Pods-relaxify-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-relaxify-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D5E15356336DF212FE579EAA54CADE52 /* Pods_relaxify_relaxifyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_relaxify_relaxifyUITests.framework; path = "Pods-relaxify-relaxifyUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E15356336DF212FE579EAA54CADE52 /* Pods_relaxify_relaxifyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_relaxify_relaxifyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86EEA8E3ED948688133C2B95B22084A /* EMTNeumorphicView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EMTNeumorphicView.debug.xcconfig; sourceTree = "<group>"; };
 		D9976718C29A6067946007E9B4832D3A /* Pods-relaxify-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-relaxify-umbrella.h"; sourceTree = "<group>"; };
 		DD648379C477AD26700C89E961FCDC87 /* Pods-relaxify-relaxifyUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-relaxify-relaxifyUITests.modulemap"; sourceTree = "<group>"; };
@@ -258,7 +258,6 @@
 				BF268521D2A1C3C8FC8EE063A00E180E /* UIColor+tool.swift */,
 				3D21D768ACF9B34944EC07C5A286DD5A /* Support Files */,
 			);
-			name = EMTNeumorphicView;
 			path = EMTNeumorphicView;
 			sourceTree = "<group>";
 		};
@@ -382,7 +381,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1220;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -636,6 +635,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -813,6 +813,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

@@ -3,12 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		09AC159CD942ABC0A402B8AD /* Pods_relaxify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA39194F56573C059C6C8F84 /* Pods_relaxify.framework */; };
 		185145812F5FED5C2A4244CB /* Pods_relaxifyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09929D4DC051A1F70505A65C /* Pods_relaxifyTests.framework */; };
+		6277712D25652B1300FB8650 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6277712C25652B1300FB8650 /* RegisterViewController.swift */; };
+		6277714725652CD900FB8650 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6277714625652CD900FB8650 /* Extensions.swift */; };
+		6277716E2565D4B700FB8650 /* NeumorphicButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6277716D2565D4B700FB8650 /* NeumorphicButtonExtension.swift */; };
 		62B8A3E2256325C100E5305C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B8A3E1256325C100E5305C /* AppDelegate.swift */; };
 		62B8A3E4256325C100E5305C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B8A3E3256325C100E5305C /* SceneDelegate.swift */; };
 		62B8A3E6256325C100E5305C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B8A3E5256325C100E5305C /* ViewController.swift */; };
@@ -43,6 +46,9 @@
 		3DC8C58CA5321A41ACC7A0D9 /* Pods-relaxify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-relaxify.release.xcconfig"; path = "Target Support Files/Pods-relaxify/Pods-relaxify.release.xcconfig"; sourceTree = "<group>"; };
 		5241F4D47AC0BF402C9FEBAE /* Pods-relaxify-relaxifyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-relaxify-relaxifyUITests.release.xcconfig"; path = "Target Support Files/Pods-relaxify-relaxifyUITests/Pods-relaxify-relaxifyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5C8C0437F4E7744FFC411990 /* Pods_relaxify_relaxifyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_relaxify_relaxifyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6277712C25652B1300FB8650 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		6277714625652CD900FB8650 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6277716D2565D4B700FB8650 /* NeumorphicButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButtonExtension.swift; sourceTree = "<group>"; };
 		62B8A3DE256325C100E5305C /* relaxify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = relaxify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B8A3E1256325C100E5305C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62B8A3E3256325C100E5305C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +97,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6277712925652A1400FB8650 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6277712C25652B1300FB8650 /* RegisterViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6277712A25652A2300FB8650 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6277712B25652A3000FB8650 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				62B8A3E7256325C100E5305C /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6277714525652CC500FB8650 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6277714625652CD900FB8650 /* Extensions.swift */,
+				6277716D2565D4B700FB8650 /* NeumorphicButtonExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		62B8A3D5256325C100E5305C = {
 			isa = PBXGroup;
 			children = (
@@ -116,10 +154,13 @@
 		62B8A3E0256325C100E5305C /* relaxify */ = {
 			isa = PBXGroup;
 			children = (
+				6277714525652CC500FB8650 /* Extensions */,
+				6277712A25652A2300FB8650 /* Models */,
+				6277712B25652A3000FB8650 /* Views */,
+				6277712925652A1400FB8650 /* Controllers */,
 				62B8A3E1256325C100E5305C /* AppDelegate.swift */,
 				62B8A3E3256325C100E5305C /* SceneDelegate.swift */,
 				62B8A3E5256325C100E5305C /* ViewController.swift */,
-				62B8A3E7256325C100E5305C /* Main.storyboard */,
 				62B8A3EA256325C300E5305C /* Assets.xcassets */,
 				62B8A3EC256325C300E5305C /* LaunchScreen.storyboard */,
 				62B8A3EF256325C300E5305C /* Info.plist */,
@@ -155,7 +196,6 @@
 				BC623F02ECDEE3D335B2E801 /* Pods-relaxifyTests.debug.xcconfig */,
 				BAE4FFB4478EB6DCE4598712 /* Pods-relaxifyTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -407,7 +447,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6277712D25652B1300FB8650 /* RegisterViewController.swift in Sources */,
+				6277714725652CD900FB8650 /* Extensions.swift in Sources */,
 				62B8A3E6256325C100E5305C /* ViewController.swift in Sources */,
+				6277716E2565D4B700FB8650 /* NeumorphicButtonExtension.swift in Sources */,
 				62B8A3E2256325C100E5305C /* AppDelegate.swift in Sources */,
 				62B8A3E4256325C100E5305C /* SceneDelegate.swift in Sources */,
 			);
@@ -588,6 +631,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = relaxify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -595,7 +639,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.relaxify.relaxify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -607,6 +651,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = relaxify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -614,7 +659,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.relaxify.relaxify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
